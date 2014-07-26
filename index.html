@@ -16,7 +16,6 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="fullpage.js"></script>
   <script src="js/jquery.skippr.js"></script>
 	<script type="text/javascript" src="examples.js"></script>
@@ -24,7 +23,7 @@
 		$(document).ready(function() {
 		$('.rol').css("height", $(window).height()-100);
 			$('#fullpage').fullpage({
-				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				sectionsColor: ['rgb(64, 176, 211)', 'rgb(64, 176, 211);', '#7BAABE', 'whitesmoke', '#ccddff'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 				menu: '#menu'
 			});
@@ -49,7 +48,7 @@
 </ul>
 
 <div id="fullpage">
-	<div class="section " id="section0">
+	<div class="section " id="section0" style="background: rgb(64, 176, 211)">
 				<h1>Investor Liquidation</h1>
 				<br>
 				<p>Home for sale at Lamar Point in Paris, TX. 1mi. from Pat Mayse Lake.</p>
@@ -64,7 +63,7 @@
 					<li>Inside Washer/dryer</li>
 					<li>Food Pantry</li>
 					<li>Large Bedroom Closet</li>
-					<li>Large carport awingings</li>
+					<li>Large carport awning</li>
 				</ul>
 				<br>				
 	</div>
@@ -133,7 +132,7 @@
     <div class="slide">
 			<div class="introw">
 				<h1>Living Room</h1>
-				<p>Huge Ceiling Fan</p>
+				<p>Large Ceiling Fan</p>
 			</div>
 			<div class="rolw">
 					<div class="sk">
@@ -143,7 +142,7 @@
 			</div>
 		</div>
     <div class="slide">
-			<div class="introw">
+			<div class="intro">
 				<h1>Bedrooms</h1>
 				<ul style="width: 40%;display: inline-block">
 					<li>Nice Large Closet</li>
@@ -156,7 +155,7 @@
 					<li>Bedroom three is last two</li>
 				<ul>
 			</div>
-			<div class="rolw">
+			<div class="rol">
 					<div class="sk">
     		     <div style="background-image: url('img/45.jpg')"></div>
     		     <div style="background-image: url('img/47.jpg')"></div>
