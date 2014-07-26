@@ -1,0 +1,6 @@
+$(document).ready(function(){
+		$('#fullpage').fullpage();
+		$('#house1').skippr();
+		$('#house2').skippr();
+		$('.roulette').css("height", $(window).height();)
+});

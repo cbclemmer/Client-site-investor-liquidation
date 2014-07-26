@@ -1,0 +1,19 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background: #5EC4B2;
+}
+.roulette {  
+    display: inline-flex;
+    width: 50%;
+   height: 500px;
+}
+.info {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    margin-top: -500px;
+}

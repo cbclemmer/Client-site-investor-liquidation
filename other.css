@@ -1,0 +1,82 @@
+
+
+		/* Sections
+		 * --------------------------------------- */
+		#section0 img,
+		#section1 img{
+			margin: 20px 0 0 0;
+		}
+         #section0 ul {
+             margin-top: 30px;
+             text-align: left;
+             padding: 20px;
+             padding-left: 30%;
+             width: 100%;
+             background: #55AB98;
+             box-shadow: inset 2px 2px 2px ;
+        }
+       #section0 ul li{
+           padding: 5px;   
+           font-size: 1.3em;
+           font-weight: 600;
+       }
+       #section1{
+          text-align: left;
+          padding-left: 10%;
+          display: inline-block;
+       }
+       #section1 ul li{
+           padding: 10px;
+           font-weight: 600;
+           font-size: 1.5em;
+       }
+		#section2{
+			text-align: left;
+			padding-left: 30%;
+		}
+       #section2 ul li{
+           padding: 10px;
+       }
+		#section3 img{
+			bottom: 0px;
+			position: absolute;
+			margin-left: -420px;
+		}
+        .intro {
+            padding-top: 200px;
+            width: 30%;
+            display: inline-block;
+        }
+       .introw {
+            width: 80%;
+            display: inline-block;
+           margin-left: 15%;  
+        }
+         .introc {
+            display: inline-block;
+        }
+		.intro p{
+			width: 50%;
+			margin: 0 auto;
+			font-size: 1.5em;
+		}
+       .rol {
+           display: inline-block;
+           width: 50%;
+           height: 500px;
+           float: right;
+           margin-right: 10%;
+       }
+       .rolw {
+           display: inline-block;
+           width: 80%;
+           height: 500px;
+           float: right;
+           margin-right: 15%;
+       }
+		.twitter-share-button{
+			position: absolute;
+			z-index: 99;
+			right: 149px;
+			top: 9px;
+        }

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Investor Liquidation</title>
+	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="fullPage.css" />
+	<link rel="stylesheet" href="css/jquery.skippr.css">
+</head>
+<body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="js/jquery.skippr.js"></script>
+	<script src="fullpage.js"></script>
+	<script src="main.js"></script>
+	<div id="fullpage">
+		<div class="section">
+			<div id="beg">
+				<h1>Investor Liquidation</h1>
+				<br>
+				<p>Home for sale at Lamar Point in Paris, TX 1 Mile from Pat Mayse Lake.</p>
+				<ul>				
+					<li>N.L. school district with bus stop out front.</li>
+					<li>Home is three Bedroom and one full bath.</li>
+					<li>Central heat and air.</li>
+					<li>Ceiling fans throughout.</li>
+					<li>1/2 acre lot</li>
+					<li>25 year old home</li>
+					<li>Slab floors</li>
+					<li>Inside Washer/dryer</li>
+					<li>Food Pantry</li>
+					<li>Large Bedroom Closet</li>
+					<li>Large carport awingings</li>
+				</ul>
+				<br>				
+				<p>Scroll down for more</p>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="slide">
+				<div class="info"><div>
+				<p>$32,000</p><br>
+				<ul>
+					<li>Asphalt driveway</li>
+					<li>Carport awning</li>
+				</ul>
+				</div></div>
+				<div class="roulette">
+				</div>
+				<div class="rspace">
+				</div>
+				</div>
+			<div class="slide">
+				<div class="info"><div>house 1:other room<br><br><br><br><br><br><br><br><br><br><br><br></div></div>
+					<div class="roulette">
+						<div id="house2">
+							<div style="background-image: url('img/6.JPG')"></div>
+    		  		<div style="background-image: url('img/7.JPG')"></div>
+    		      <div style="background-image: url('img/8.JPG')"></div>
+    		      <div style="background-image: url('img/9.JPG')"></div>
+  		        <div style="background-image: url('img/10.JPG')"></div>
+		        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="info">house 2</div>
+			<div class="roulette"></div>
+		</div>
+		<div class="section">
+			<div class="info">house 3</div>
+			<div class="roulette"></div>
+		</div>
+	</div>
+</body>
+</html>
